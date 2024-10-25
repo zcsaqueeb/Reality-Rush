@@ -31,7 +31,13 @@ To get started with the bot, follow these steps:
 ### 1. `configs.json` 📜 - Adjust configuration
 
 ```json
-{
+{  
+  "maximumBuildingPrice": 500000,
+  "howManyEnergyLimitUpgrade": 5,
+  "howManyTapMultiplierUpgrade": 5,
+  "howManyBoardMultiplierUpgrade": 5,
+  "howManyEnergyRegenSpeedUpgrade": 5,
+  "howManyUpgradeCityServicesMultiplier": 5,
   "limit": 5, //number of accounts run in a row
   "countdown": 300, //time to restarts all the accounts - count by seconds
   "country_time": "vi-VN" //timestamp base on the country
