@@ -2,10 +2,12 @@
   "limit": 100,
   "countdown": 300,
   "country_time": "en-US",
-  "maximumBuildingPrice": 500000,
+  "maximumBuildingPrice": 500000000,
   "howManyEnergyLimitUpgrade": 5,
   "howManyTapMultiplierUpgrade": 5,
   "howManyBoardMultiplierUpgrade": 5,
   "howManyEnergyRegenSpeedUpgrade": 5,
-  "howManyUpgradeCityServicesMultiplier": 5
+  "howManyUpgradeCityServicesMultiplier": 5,
+  "tappingCount": [10000, 50000],
+  "doTasks": true
 }
