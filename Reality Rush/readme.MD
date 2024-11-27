@@ -31,7 +31,7 @@ To get started with the bot, follow these steps:
 ### 1. `configs.json` 📜 - Adjust configuration
 
 ```json
-{  
+{
   "limit": 100,
   "countdown": 300,
   "country_time": "en-US",
@@ -42,8 +42,21 @@ To get started with the bot, follow these steps:
   "howManyEnergyRegenSpeedUpgrade": 5,
   "howManyUpgradeCityServicesMultiplier": 5,
   "tappingCount": [10000, 50000],
-  "doTasks": true
+  "doTasks": true,
+  "stakingPrize": {
+    "20 Lootboxes – Hidden Treasures": 10,
+    "Tier 1 NFT – Legendary Royalties": 10,
+    "Premium Lootbox – VIP Treasures": 10,
+    "10,000 $RMV – Snag the Tokens!": 10,
+    "5,000 $RRUSH – Game Power-Up": 10,
+    "25 USDT – Instant Crypto Boost": 10,
+    "50,000 $RRUSH – Power Boost": 10,
+    "Tier 0 NFT – Max ROI": 10,
+    "Ledger Nano S": 10,
+    "Incredible Meta Quest 3S": 10
+  }
 }
+
 ```
 
 ### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/7047)
