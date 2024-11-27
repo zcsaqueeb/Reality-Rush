@@ -32,15 +32,17 @@ To get started with the bot, follow these steps:
 
 ```json
 {  
-  "maximumBuildingPrice": 500000,
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "maximumBuildingPrice": 500000000,
   "howManyEnergyLimitUpgrade": 5,
   "howManyTapMultiplierUpgrade": 5,
   "howManyBoardMultiplierUpgrade": 5,
   "howManyEnergyRegenSpeedUpgrade": 5,
   "howManyUpgradeCityServicesMultiplier": 5,
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "tappingCount": [10000, 50000],
+  "doTasks": true
 }
 ```
 
