@@ -10,6 +10,8 @@
 
 ## 🚀 Getting Started
 
+> Remember to download Nodejs version: **22.11.0** and NPM version: **10.9.0**
+
 To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
@@ -43,6 +45,7 @@ To get started with the bot, follow these steps:
   "howManyUpgradeCityServicesMultiplier": 5,
   "tappingCount": [10000, 50000],
   "doTasks": true,
+  "autoArrange": false,
   "stakingPrize": {
     "20 Lootboxes – Hidden Treasures": 10,
     "Tier 1 NFT – Legendary Royalties": 10,
