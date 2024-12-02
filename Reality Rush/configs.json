@@ -10,17 +10,18 @@
   "howManyUpgradeCityServicesMultiplier": 5,
   "tappingCount": [10000, 50000],
   "doTasks": true,
-  "autoArrange": false,
+  "autoArrange": true,
+  "autoMergeBuilding": true,
   "stakingPrize": {
-    "20 Lootboxes – Hidden Treasures": 10,
-    "Tier 1 NFT – Legendary Royalties": 10,
-    "Premium Lootbox – VIP Treasures": 10,
-    "10,000 $RMV – Snag the Tokens!": 10,
-    "5,000 $RRUSH – Game Power-Up": 10,
-    "25 USDT – Instant Crypto Boost": 10,
-    "50,000 $RRUSH – Power Boost": 10,
-    "Tier 0 NFT – Max ROI": 10,
-    "Ledger Nano S": 10,
-    "Incredible Meta Quest 3S": 10
+    "20 Lootboxes – Hidden Treasures": 1,
+    "Tier 1 NFT – Legendary Royalties": 1,
+    "Premium Lootbox – VIP Treasures": 1,
+    "10,000 $RMV – Snag the Tokens!": 1,
+    "5,000 $RRUSH – Game Power-Up": 1,
+    "25 USDT – Instant Crypto Boost": 1,
+    "50,000 $RRUSH – Power Boost": 1,
+    "Tier 0 NFT – Max ROI": 1,
+    "Ledger Nano S": 1,
+    "Incredible Meta Quest 3S": 1
   }
 }
