@@ -10,6 +10,7 @@
   "howManyUpgradeCityServicesMultiplier": 5,
   "tappingCount": [10000, 50000],
   "doTasks": true,
+  "autoArrange": false,
   "stakingPrize": {
     "20 Lootboxes – Hidden Treasures": 10,
     "Tier 1 NFT – Legendary Royalties": 10,
