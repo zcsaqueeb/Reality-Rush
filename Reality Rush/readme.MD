@@ -37,6 +37,7 @@ To get started with the bot, follow these steps:
   "limit": 100,
   "countdown": 300,
   "country_time": "en-US",
+  "autoUpgradeBuildings": false,
   "maximumBuildingPrice": 500000000,
   "howManyEnergyLimitUpgrade": 5,
   "howManyTapMultiplierUpgrade": 5,
@@ -60,7 +61,6 @@ To get started with the bot, follow these steps:
     "Incredible Meta Quest 3S": 1
   }
 }
-
 
 ```
 
