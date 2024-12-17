@@ -47,6 +47,7 @@ To get started with the bot, follow these steps:
   "tappingCount": [10000, 50000],
   "doTasks": true,
   "autoArrange": true,
+  "watchAds": false,
   "autoMergeBuilding": true,
   "stakingPrize": {
     "20 Lootboxes – Hidden Treasures": 1,
