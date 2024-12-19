@@ -13,6 +13,7 @@
   "doTasks": true,
   "autoArrange": true,
   "watchAds": false,
+  "claimTokens": false,
   "autoMergeBuilding": true,
   "stakingPrize": {
     "20 Lootboxes – Hidden Treasures": 1,
