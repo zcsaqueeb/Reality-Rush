@@ -6,7 +6,7 @@ A brief description of your extension and its main features.
 
 ### Step 1: Download the Source Code
 
-1. Download the Extension.
+1. Download the Extension files.
 2. Extract the files.
 
 ### Step 2: Open Chrome
