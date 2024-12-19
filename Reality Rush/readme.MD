@@ -46,6 +46,7 @@ To get started with the bot, follow these steps:
   "howManyUpgradeCityServicesMultiplier": 5,
   "tappingCount": [10000, 50000],
   "doTasks": true,
+  "claimTokens": false,
   "autoArrange": true,
   "watchAds": false,
   "autoMergeBuilding": true,
