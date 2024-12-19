@@ -1,4 +1,4 @@
-# Your Extension Name
+# Retrive token for Reality Rush - Extension.
 
 A brief description of your extension and its main features.
 
