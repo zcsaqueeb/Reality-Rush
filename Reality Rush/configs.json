@@ -13,7 +13,7 @@
   "tappingCount": [10000, 50000],
   "doTasks": true,
   "autoArrange": true,
-  "watchAds": false,
+  "watchAds": true,
   "autoMergeBuilding": true,
   "claimTokens": false,
   "stakingPrize": {
