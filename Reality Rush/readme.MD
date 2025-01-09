@@ -18,7 +18,14 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
--> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+Before running the bot, make sure you have the following installed:
+
+- **Node.js** (Version: `22.11.0`)
+- **npm** (Version: `10.9.0`)
+
+Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
+
+-> Double click on `setup.bat` for windows or `setup.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
 
 1. **Install Dependencies and Modules:**
 
@@ -39,6 +46,7 @@ To get started with the bot, follow these steps:
   "limit": 100,
   "countdown": 300,
   "country_time": "en-US",
+  "delayEachAccount": [1, 81],
   "autoUpgradeBuildings": false,
   "maximumBuildingPrice": 500000000,
   "howManyEnergyLimitUpgrade": 5,
@@ -48,10 +56,10 @@ To get started with the bot, follow these steps:
   "howManyUpgradeCityServicesMultiplier": 5,
   "tappingCount": [10000, 50000],
   "doTasks": true,
-  "claimTokens": false,
   "autoArrange": true,
   "watchAds": false,
   "autoMergeBuilding": true,
+  "claimTokens": false,
   "stakingPrize": {
     "20 Lootboxes – Hidden Treasures": 1,
     "Tier 1 NFT – Legendary Royalties": 1,
@@ -65,7 +73,6 @@ To get started with the bot, follow these steps:
     "Incredible Meta Quest 3S": 1
   }
 }
-
 ```
 
 ### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/7047)
@@ -77,6 +84,8 @@ token
 ```
 
 ### 3. `wallets.txt` 💼 - Cannot update yet.
+
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
 ```txt - wallet address
 abc...xyz
@@ -96,6 +105,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node bot`
+> To run the bot, use the following command: `cd "reality rush-main/reality rush"; node meomundep`
 
 🎇Enjoy!

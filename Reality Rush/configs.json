@@ -2,6 +2,7 @@
   "limit": 100,
   "countdown": 300,
   "country_time": "en-US",
+  "delayEachAccount": [1, 81],
   "autoUpgradeBuildings": false,
   "maximumBuildingPrice": 500000000,
   "howManyEnergyLimitUpgrade": 5,
@@ -13,8 +14,8 @@
   "doTasks": true,
   "autoArrange": true,
   "watchAds": false,
-  "claimTokens": false,
   "autoMergeBuilding": true,
+  "claimTokens": false,
   "stakingPrize": {
     "20 Lootboxes – Hidden Treasures": 1,
     "Tier 1 NFT – Legendary Royalties": 1,
