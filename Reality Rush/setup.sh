@@ -33,7 +33,7 @@ create_default_configs() {
   "limit": 100,
   "countdown": 300,
   "country_time": "en-US",
-  "delayEachAccount": [1, 81],
+  "delayEachAccount": [1, 1],
   "autoUpgradeBuildings": false,
   "maximumBuildingPrice": 500000000,
   "howManyEnergyLimitUpgrade": 5,
@@ -44,27 +44,25 @@ create_default_configs() {
   "tappingCount": [10000, 50000],
   "doTasks": true,
   "autoArrange": true,
-  "watchAds": false,
+  "watchAds": true,
   "autoMergeBuilding": true,
   "claimTokens": false,
   "stakingPrize": {
-    "20 Lootboxes – Hidden Treasures": 1,
-    "Tier 1 NFT – Legendary Royalties": 1,
+    "30 USDT – Instant Crypto Boost": 1,
+    "5 TON – Boost your journey": 1,
+    "3Lootboxes – Hidden Treasures": 1,
+    "3 x NFT Pool – Instant Prizes": 1,
+    "3 x Reality Rush Pool – Instant Prizes Await": 1,
     "Premium Lootbox – VIP Treasures": 1,
-    "10,000 $RMV – Snag the Tokens!": 1,
     "5,000 $RRUSH – Game Power-Up": 1,
-    "25 USDT – Instant Crypto Boost": 1,
-    "50,000 $RRUSH – Power Boost": 1,
-    "Tier 0 NFT – Max ROI": 1,
-    "Ledger Nano S": 1,
-    "Incredible Meta Quest 3S": 1
+    "50,000 $RRUSH – Power Boost": 1
   }
 }
 EOL
 }
 
 check_configs() {
-    if ! node -e "const cfg=require('./configs.json');if(typeof cfg.howManyAccountsRunInOneTime !== 'number' || cfg.howManyAccountsRunInOneTime < 1) throw new Error('Invalid config');" 2>/dev/null; then
+    if ! node -e "const cfg=require('./configs.json');if(typeof cfg.limit !== 'number' || cfg.limit < 1) throw new Error('Invalid config');" 2>/dev/null; then
         print_red "Invalid configuration detected. Resetting to default values..."
         create_default_configs
         print_green "Configuration reset completed."
